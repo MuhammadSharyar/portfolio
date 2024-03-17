@@ -12,11 +12,14 @@ const About = () => {
       <div className="w-full md:w-1/2">
         <Heading title="About Me" className="text-5xl font-bold mb-7" />
         <p className="text-sm mb-4">
-          As a Full Stack Developer, I have worked on a variety of web
-          development projects, demonstrating proficiency in both front-end and
-          back-end technologies. I applied problem-solving skills to address
-          complex issues efficiently and collaborated with team members to
-          provide valuable insights and support.
+          Innovative and driven Web developer and UI/UX Designer with over 5
+          years of experience with a passion for crafting robust and scalable
+          solutions. Equipped with a strong foundation in full-stack
+          development, I am adept at designing and implementing high-quality
+          code across multiple platforms. With a track record of successfully
+          delivering projects on time and exceeding client expectations, I am
+          now seeking new opportunities to leverage my skills and contribute to
+          cutting-edge technological advancements.
         </p>
         <Link
           href="https://drive.usercontent.google.com/u/0/uc?id=1a2ADKt0aKqpRKSzst8KOgSY2xKA-zhwq&export=download"

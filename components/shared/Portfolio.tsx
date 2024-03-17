@@ -12,8 +12,9 @@ const Portfolio = () => {
       <div className="w-full">
         <Heading
           title="Portfolio"
-          className="text-4xl font-bold mb-10 text-center"
+          className="text-4xl font-bold mb-2 text-center"
         />
+        <p className="mb-10 text-center text-gray-500">Recent Projects</p>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
           <ProjectCard
             image="/assets/images/photo-edit-ai-img.jpg"
