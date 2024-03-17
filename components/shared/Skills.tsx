@@ -19,17 +19,19 @@ import {
   SiAmazonaws,
   SiTailwindcss,
 } from "react-icons/si";
+import Heading from "../ui/heading";
 
 const Skills = () => {
   return (
-    <div className="flex justify-between items-center max-w-5xl w-full px-5 min-h-[100vh]">
+    <div
+      id="skills-section"
+      className="flex justify-between items-center max-w-5xl w-full px-5 min-h-[100vh]"
+    >
       <div className="w-full">
-        <h2
+        <Heading
+          title="Skills"
           className="text-4xl font-bold mb-10 text-center"
-          id="skills-section"
-        >
-          Skills
-        </h2>
+        />
         <div className="flex flex-col md:flex-row items-center justify-between mb-10">
           <h3 className="text-2xl font-bold mb-7">Frontend</h3>
           <div className="flex justify-center md:justify-start flex-wrap gap-5">

@@ -1,15 +1,19 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
+import Heading from "../ui/heading";
 
 const Portfolio = () => {
   return (
     <div
-      className="flex justify-between items-center max-w-5xl w-full px-5 min-h-[90vh] mt-20 md:mt-0"
       id="portfolio-section"
+      className="flex justify-between items-center max-w-5xl w-full px-5 min-h-[90vh] mt-20 md:mt-0"
     >
       <div className="w-full">
-        <h2 className="text-4xl font-bold mb-10 text-center">Portfolio</h2>
+        <Heading
+          title="Portfolio"
+          className="text-4xl font-bold mb-10 text-center"
+        />
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
           <ProjectCard
             image="/assets/images/photo-edit-ai-img.jpg"

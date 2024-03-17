@@ -1,5 +1,3 @@
-"use client";
-
 import Link from "next/link";
 import React from "react";
 import { CiMenuBurger } from "react-icons/ci";
@@ -11,6 +9,7 @@ import {
   SheetTrigger,
 } from "@/components/ui/sheet";
 import ThemeSwitcher from "../ThemeSwitch";
+import Heading from "../ui/heading";
 
 const links = [
   { title: "Home", link: "#hero-section" },
@@ -22,11 +21,10 @@ const links = [
 ];
 
 const Navbar = () => {
-  const [menu, setMenu] = React.useState(false);
   return (
     <nav className="w-full flex justify-center border-b sticky top-0 bg-background">
       <div className="flex justify-between items-center h-[10vh] px-5 max-w-5xl w-full">
-        <h2>Muhammad Sharyar</h2>
+        <Heading title="Muhammad Sharyar" className="text-lg font-semibold" />
         <Sheet>
           <SheetTrigger asChild>
             <CiMenuBurger size={25} className="md:hidden" />

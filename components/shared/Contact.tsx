@@ -5,6 +5,7 @@ import { Textarea } from "../ui/textarea";
 import { Button } from "../ui/button";
 import { useToast } from "@/components/ui/use-toast";
 import Link from "next/link";
+import Heading from "../ui/heading";
 
 const Contact = () => {
   const { toast } = useToast();
@@ -71,11 +72,14 @@ const Contact = () => {
 
   return (
     <div
-      className="flex justify-between items-center max-w-5xl w-full px-5 min-h-[90vh]"
       id="contact-section"
+      className="flex justify-between items-center max-w-5xl w-full px-5 min-h-[90vh]"
     >
       <div className="w-full">
-        <h2 className="text-4xl font-bold mb-10 text-center">Contact Me</h2>
+        <Heading
+          title="Contact Me"
+          className="text-4xl font-bold mb-10 text-center"
+        />
         <div className="flex justify-center">
           <form
             className="flex flex-col gap-2 justify-center w-[90%] md:w-[50%] lg:w-[40%]"

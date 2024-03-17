@@ -1,15 +1,16 @@
 import React from "react";
 import { Button } from "../ui/button";
 import Link from "next/link";
+import Heading from "../ui/heading";
 
 const About = () => {
   return (
     <div
-      className="flex justify-between items-center max-w-5xl w-full px-5 min-h-[100vh]"
       id="about-section"
+      className="flex justify-between items-center max-w-5xl w-full px-5 min-h-[100vh]"
     >
       <div className="w-full md:w-1/2">
-        <h2 className="text-5xl font-bold mb-7">About Me</h2>
+        <Heading title="About Me" className="text-5xl font-bold mb-7" />
         <p className="text-sm mb-4">
           As a Full Stack Developer, I have worked on a variety of web
           development projects, demonstrating proficiency in both front-end and
