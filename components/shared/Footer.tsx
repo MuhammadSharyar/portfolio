@@ -14,7 +14,7 @@ const Footer = () => {
   return (
     <footer className="flex justify-between items-center max-w-5xl w-full px-5 min-h-[30vh]">
       <div className="w-full flex justify-center items-center">
-        <ul className="flex gap-2 text-sm text-gray-700">
+        <ul className="flex flex-wrap justify-center gap-2 text-sm text-gray-700">
           {links.map((link, index) => (
             <li key={index} className="ml-3">
               <Link
