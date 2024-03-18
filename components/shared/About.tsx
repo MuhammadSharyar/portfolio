@@ -22,7 +22,7 @@ const About = () => {
           cutting-edge technological advancements.
         </p>
         <Link
-          href="https://drive.usercontent.google.com/u/0/uc?id=1JvpmPgUWQzP3DVP53C5rp4u2pgTU_QXo&export=download"
+          href="https://drive.usercontent.google.com/u/0/uc?id=1Zazpf45ni8g8AFUrGVGx1jOkTZp268Sp&export=download"
           download
         >
           <Button>Download CV</Button>
