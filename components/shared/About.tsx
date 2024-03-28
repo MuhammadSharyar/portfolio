@@ -21,10 +21,7 @@ const About = () => {
           now seeking new opportunities to leverage my skills and contribute to
           cutting-edge technological advancements.
         </p>
-        <Link
-          href="https://drive.usercontent.google.com/u/0/uc?id=1Zazpf45ni8g8AFUrGVGx1jOkTZp268Sp&export=download"
-          download
-        >
+        <Link href={process.env.NEXT_PUBLIC_CV_LINK!} download>
           <Button>Download CV</Button>
         </Link>
       </div>

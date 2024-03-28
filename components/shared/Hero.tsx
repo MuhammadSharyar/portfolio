@@ -33,12 +33,14 @@ const Hero = () => {
           <Button>Contact Me</Button>
         </Link>
       </div>
-      <Image
-        src={"/assets/images/profile_img.png"}
-        alt="profile image"
-        width={300}
-        height={300}
-      />
+      <div>
+        <Image
+          src={"/assets/images/profile-img.png"}
+          alt="profile image"
+          width={300}
+          height={300}
+        />
+      </div>
     </div>
   );
 };

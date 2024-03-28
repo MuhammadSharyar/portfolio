@@ -54,7 +54,7 @@ const Contact = () => {
             </Link>{" "}
             or talk to him at{" "}
             <Link href="tel:+971502448064" className="font-bold">
-              +971 502 448 064
+              +971 50 244 8064
             </Link>
           </div>
         ),
