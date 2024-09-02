@@ -18,6 +18,7 @@ import {
   SiDocker,
   SiAmazonaws,
   SiTailwindcss,
+  SiSupabase,
 } from "react-icons/si";
 import Heading from "../ui/heading";
 
@@ -94,6 +95,16 @@ const Skills = () => {
               }
               text="Typescript"
             />
+            <SkillCard
+              skillIcon={<SiSupabase size={50} className="text-green-500" />}
+              text="Typescript"
+            />
+            <SkillCard
+              skillIcon={
+                <BiLogoFirebase size={50} className="text-orange-500" />
+              }
+              text="Firebase"
+            />
           </div>
         </div>
         <div className="flex flex-col md:flex-row items-center justify-between mb-10">
@@ -112,12 +123,6 @@ const Skills = () => {
             <SkillCard
               skillIcon={<BiLogoMongodb size={50} className="text-green-500" />}
               text="MongoDB"
-            />
-            <SkillCard
-              skillIcon={
-                <BiLogoFirebase size={50} className="text-orange-500" />
-              }
-              text="Firebase"
             />
           </div>
         </div>
